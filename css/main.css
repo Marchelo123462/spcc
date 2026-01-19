@@ -29,8 +29,8 @@ header{background-color: darkgreen; text-decoration-color: white; padding: 15px;
 /* Grid Box Starter */
 /* REMEMBER 1: There are placeholders in the rule, please change them accordingly */
 /* REMEMBER 2: This is to initiate grid display, you still need to assign rules for its children to determine how many grid columns they take up respectively */
-.grid-container { 
-    display:grid; 
-    grid-template-columns:repeat([number of times],[unit]); 
-    gap:[value]
-}
+.grid-container { display:grid; grid-template-columns: repeat (12, 1fr); gap: 15px; }
+.grid-container .box { border:2px solid black; }
+.grid-container .box-1 { grid-column: span 6; }
+.grid-container .box-2 { grid-column: span 3; }
+.grid-container .box-3 { grid-column: span 3; }
