@@ -1,8 +1,8 @@
 body head{margin: 0; padding: 0; height: 100%;}
-header{background-color: darkgreen; text-decoration-color: white; padding: 15px; align-items: center;}
-.logo{font-size: 20px; padding-bottom: 5px; padding-top: 5px; padding-left: 15px; padding-right: 15px; border-right: 15px; color: white; }
-.slogan{color: aquamarine; font-size: 32px;}
-.Menu{gap:  30px;}
+header{background-color: darkgreen; text-decoration-color: white; padding: 15px; align-items: center; display:flex;}
+.logo{flex:1; font-size: 20px; padding-bottom: 5px; padding-top: 5px; padding-left: 15px; padding-right: 15px; border-right: 15px; color: white; }
+.slogan{flex:2; color: aquamarine; font-size: 32px; text-align:center;}
+.Menu{flex:1; gap: 30px;}
 .main{background-color: beige; color: black; padding-top: 30px; padding-bottom: 30px; padding-left: 100px; padding-right: 100px; }
 .heading{color: red; align-items: center; margin-bottom: 30px;}
 .IMG{margin-bottom: 50px;}
